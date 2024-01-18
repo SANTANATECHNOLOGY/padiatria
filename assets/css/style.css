@@ -386,13 +386,16 @@ footer {
     }
 }
 
-@media only screen and (min-width: 560px){
+@media only screen and (max-width: 560px){
     .headline {
         text-align: center;
-        display: flex;
-        justify-content: center;
     }
     .headline h2{
         font-size: 2rem;
+        margin: 0;
+        text-align: center;
+    }
+    .headline p{
+        text-align: center;
     }
 }
