@@ -1,0 +1,391 @@
+html {
+    font-size: 62.5%;
+
+    background-color: var(--bg-color);
+    overflow: auto;
+}
+
+:root {
+    --bg-color: #fff;
+    --text-bg-color: #fff;
+    --main-bg-color: #FFC107;
+    --wp-bg-color: #0BFB15;
+    --wpp-bg-color: #0EBC15;
+    --banner2-color: #D9D9D9;
+    --cards: #00BCD4;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav1 {
+    background-image: url('/assets/img/doutora.png');
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+
+    background-repeat: no-repeat;
+}
+
+.icon_wpp {
+    display: block;
+    position: fixed;
+    float: right;
+    z-index: 1000;
+    left: 90%;
+    top: 80%;
+}
+
+.icon_wpp i {
+    font-size: 8rem;
+    color: var(--bg-color);
+
+    width: 100vw;
+    position: fixed;
+    width: 8rem;
+    background-color: var(--wp-bg-color);
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--wpp-bg-color);
+    animation: floatIcon 4s ease-in-out infinite;
+}
+
+@keyframes floatIcon {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-1.0rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.icon_wpp i:hover {
+    box-shadow: none;
+}
+
+.headline {
+    margin-left: 2rem;
+}
+
+.headline img {
+    margin-top: 10rem;
+    width: 40vh;
+
+}
+
+.headline h2 {
+    color: #4D4A4A;
+    font-size: 2.7rem;
+    margin-top: 9rem;
+    font-weight: 800;
+}
+
+.headline p {
+    font-size: 2rem;
+    margin-top: 7rem;
+    width: 64vh;
+}
+
+.headline button {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-bg-color);
+    border: #4D4A4A;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.list {
+    background-color: var(--banner2-color);
+    text-align: center;
+    display: flex;
+}
+
+.cards {
+    margin-top: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .2rem;
+}
+
+.cards button {
+    font-size: 1.7rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: #FFC107;
+    border: #4D4A4A;
+    font-weight: 400;
+    margin-top: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.cards p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1.5rem;
+    color: #fff;
+}
+
+.cards h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.card1 {
+    height: 25rem;
+    border-radius: 2rem;
+    width: 23%;
+    background-color: #00BCD4;
+}
+
+.card2 {
+    border-radius: 2rem;
+    height: 25rem;
+    width: 23%;
+    background-color: #00BCD4;
+}
+
+.card3 {
+    border-radius: 2rem;
+    height: 25rem;
+    width: 23%;
+    background-color: #00BCD4;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+table tr {
+    font-size: 1.5rem;
+}
+
+.consulta {
+    display: flex;
+    padding: 2rem 5rem 0 5rem;
+}
+
+.consulta p {
+    font-size: 2.5rem;
+    align-items: center;
+    width: 70%;
+    margin-top: 10rem;
+    font-weight: 400;
+}
+
+.consulta button {
+    font-size: 1.7rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: #FFC107;
+    border: #4D4A4A;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    padding: 20rem 5rem 20rem 5rem;
+    text-align: center;
+
+}
+
+.contato p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.view h3 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.apresentando {
+    display: flex;
+}
+
+.apresentando img {
+    height: 60vh;
+    width: 70vw;
+
+}
+
+.apresentando p {
+    text-align: left;
+    font-size: 2rem;
+    width: 70%;
+    padding-bottom: 2rem;
+}
+
+.apresentando button {
+    font-size: 1.7rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-bg-color);
+    border: #4D4A4A;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.v1 {
+    padding-left: 5%;
+}
+
+.depoimento {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem;
+    text-align: center;
+}
+
+.inter h3 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.dp1 {
+    width: 35.5rem;
+    height: 60rem;
+    background-color: var(--cards);
+    border-radius: 5rem 5rem 0 0;
+}
+
+.dp1 img {
+    margin-top: 2rem;
+    width: 25rem;
+}
+
+.dp1 h4 {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.dp2 {
+
+    width: 35.5rem;
+    height: 60rem;
+    background-color: var(--cards);
+    border-radius: 5rem 5rem 0 0;
+}
+
+.dp2 img {
+    margin-top: 2rem;
+    width: 25rem;
+}
+
+.dp2 h4 {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.dp3 {
+    width: 35.5rem;
+    height: 60rem;
+    background-color: var(--cards);
+    border-radius: 5rem 5rem 0 0;
+}
+
+.dp3 img {
+    margin-top: 2rem;
+    width: 25rem;
+}
+
+.dp3 h4 {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.buton {
+    display: flex;
+    justify-content: center;
+}
+
+.buton button {
+    font-size: 1.7rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: #FFC107;
+    border: #4D4A4A;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.5rem;
+    background-color: var(--cards);
+    height: 10rem;
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+@media only screen and (min-width: 1024px){
+    .cards button{
+        margin-top: 0.2rem;
+    }
+    .dp2 h4{
+        padding: 1rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .cards {
+        margin-top: 1rem;
+        display:flex;
+        width: 100%;
+    }
+    .cards p{
+        padding: 0.1rem;
+    }
+    .card1{
+        width: 23%;
+    }
+    .card2{
+        width: 23%;
+    }
+    .card3{
+        width: 23%;
+    }
+
+    .card1img{
+        width: 10%;
+    }
+    
+    .card2 img{
+        width: 10%;
+    }
+    .card3 img{
+        width: 10%;
+    }
+}
+
+@media only screen and (min-width: 480px){
+    
+}
