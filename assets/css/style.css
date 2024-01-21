@@ -397,6 +397,7 @@ footer {
 @media only screen and (max-width: 560px) {
     .headline {
         text-align: center;
+        width: 100%;
     }
 
     .headline h2 {
@@ -427,6 +428,17 @@ footer {
         border-radius: 2rem;
         width: auto;
     }
+    .card2 {
+        height: auto;
+        border-radius: 2rem;
+        width: auto;
+    }
+    
+    .card3 {
+        height: auto;
+        border-radius: 2rem;
+        width: auto;
+    }
 
     .consulta {
         display: block;
@@ -437,6 +449,9 @@ footer {
     .consulta img {
         width: 60%;
     }
+    .consulta p{
+        margin-top: 5rem;
+    }
 
     .contato {
         display: block;
@@ -446,10 +461,15 @@ footer {
         display: block;
         text-align: center;
     }
+    .apresentando img {
+        height: 55vh;
+        width: 50vw;}
     .depoimento{
         display: block;
+        padding: 0;
     }
     .dp1 h4 {
-        padding: 1rem;
+        padding: 3rem;
+        font-size: 1.5rem;
     }
 }
