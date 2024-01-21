@@ -397,7 +397,8 @@ footer {
 @media only screen and (max-width: 560px) {
     .headline {
         text-align: center;
-        width: 100%;
+        width: 75%;
+        margin: 0;
     }
 
     .headline h2 {
@@ -408,6 +409,7 @@ footer {
 
     .headline p {
         text-align: center;
+        font-size: 1.3rem;
     }
     .cards{
         display: block;
