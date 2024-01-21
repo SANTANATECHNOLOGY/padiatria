@@ -347,55 +347,109 @@ footer {
     justify-content: center;
     width: 100%;
 }
-@media only screen and (min-width: 1024px){
-    .cards button{
+
+@media only screen and (min-width: 1024px) {
+    .cards button {
         margin-top: 0.2rem;
     }
-    .dp2 h4{
+
+    .dp2 h4 {
         padding: 1rem;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .cards {
         margin-top: 1rem;
-        display:flex;
+        display: flex;
         width: 100%;
     }
-    .cards p{
+
+    .cards p {
         padding: 0.1rem;
     }
-    .card1{
-        width: 23%;
-    }
-    .card2{
-        width: 23%;
-    }
-    .card3{
+
+    .card1 {
         width: 23%;
     }
 
-    .card1img{
+    .card2 {
+        width: 23%;
+    }
+
+    .card3 {
+        width: 23%;
+    }
+
+    .card1img {
         width: 10%;
     }
-    
-    .card2 img{
+
+    .card2 img {
         width: 10%;
     }
-    .card3 img{
+
+    .card3 img {
         width: 10%;
     }
 }
 
-@media only screen and (max-width: 560px){
+@media only screen and (max-width: 560px) {
     .headline {
         text-align: center;
     }
-    .headline h2{
+
+    .headline h2 {
         font-size: 2rem;
         margin: 0;
         text-align: center;
     }
-    .headline p{
+
+    .headline p {
         text-align: center;
+    }
+    .cards{
+        display: block;
+        text-align: center;
+    }
+    .cards p {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 0.5rem;    
+    }
+    
+    .cards h3 {
+        font-size: 1.2rem;
+    }
+    
+    .card1 {
+        height: auto;
+        border-radius: 2rem;
+        width: auto;
+    }
+
+    .consulta {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .consulta img {
+        width: 60%;
+    }
+
+    .contato {
+        display: block;
+        text-align: center;
+    }
+    .apresentando {
+        display: block;
+        text-align: center;
+    }
+    .depoimento{
+        display: block;
+    }
+    .dp1 h4 {
+        padding: 1rem;
     }
 }
