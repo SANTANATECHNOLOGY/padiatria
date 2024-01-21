@@ -415,31 +415,34 @@ footer {
         font-size: 2rem;
         width: 100%;
     }
-    .cards{
+
+    .cards {
         display: block;
         text-align: center;
     }
+
     .cards p {
         font-size: 1.2rem;
         text-align: center;
-        padding: 0.5rem;    
+        padding: 0.5rem;
     }
-    
+
     .cards h3 {
         font-size: 1.2rem;
     }
-    
+
     .card1 {
         height: auto;
         border-radius: 2rem;
         width: auto;
     }
+
     .card2 {
         height: auto;
         border-radius: 2rem;
         width: auto;
     }
-    
+
     .card3 {
         height: auto;
         border-radius: 2rem;
@@ -451,11 +454,15 @@ footer {
         text-align: center;
         padding: 0;
     }
+    .consulta img{
+        width: 95%;
+    }
 
     .consulta img {
         width: 60%;
     }
-    .consulta p{
+
+    .consulta p {
         margin-top: 5rem;
     }
 
@@ -463,19 +470,65 @@ footer {
         display: block;
         text-align: center;
     }
+
+    .contato1 {
+        width: auto;
+        padding-bottom: 2rem;
+    }
+
+    .contato2 {
+        width: auto;
+        padding-bottom: 2rem;
+    }
+
+    .contato3 {
+        width: auto;
+        padding-bottom: 2rem;
+    }
+
+    .contato p {
+        font-size: 1.5rem;
+    }
+
     .apresentando {
         display: block;
         text-align: center;
     }
+
     .apresentando img {
-        height: 55vh;
-        width: 50vw;}
-    .depoimento{
+        height: auto;
+        width: auto;
+    }
+
+    .apresentando p {
+        text-align: center;
+        font-size: 2rem;
+        width: auto;
+        padding-bottom: 2rem;
+    }
+
+    .depoimento {
         display: block;
         padding: 0;
     }
+
     .dp1 h4 {
         padding: 3rem;
         font-size: 1.5rem;
+    }
+
+    .dp1 {
+        width: auto;
+        height: auto;
+    }
+
+    .dp2 {
+        width: auto;
+        height: auto;
+    }
+
+    .dp3 {
+        width: auto;
+        height: auto;
     }
 }
