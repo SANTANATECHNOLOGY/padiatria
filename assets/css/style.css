@@ -400,8 +400,12 @@ footer {
         justify-items: center;
         align-items: center;
         text-align: center;
-        width: 75%;
+        width: auto;
         margin: 0;
+    }
+    .icon_wpp {
+        
+        left: 70%;
     }
 
     .headline h2 {
@@ -459,11 +463,12 @@ footer {
     }
 
     .consulta img {
-        width: 60%;
+        width: 42rem;
     }
 
     .consulta p {
         margin-top: 5rem;
+        width: auto;
     }
 
     .contato {
@@ -489,6 +494,10 @@ footer {
     .contato p {
         font-size: 1.5rem;
     }
+    
+    .V1{
+        padding-left: 0;
+    }
 
     .apresentando {
         display: block;
@@ -496,8 +505,8 @@ footer {
     }
 
     .apresentando img {
-        height: auto;
-        width: auto;
+        height: 100%;
+        width: 100%;
     }
 
     .apresentando p {
