@@ -419,6 +419,9 @@ footer {
         font-size: 2rem;
         width: 100%;
     }
+    .headline button{
+        margin-left: 0;
+    }
 
     .cards {
         display: block;
@@ -452,6 +455,7 @@ footer {
         border-radius: 2rem;
         width: auto;
     }
+    
 
     .consulta {
         display: block;
